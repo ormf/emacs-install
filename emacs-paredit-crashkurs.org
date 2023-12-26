@@ -1,0 +1,60 @@
+* Emacs Crashkurs
+
+  - =C-= ist Control-Key
+
+  - =M-= ist Alt-Key
+
+  - =C-h t= bedeutet "erst Control-h, dann die t Taste". Mit dieser
+  Tastenkombination kommt man in das Emacs Tutorial
+
+  - =f,b,n,p= sind "forward", "backward", "next", "previous"
+
+  Kombinieren kann man das mit dem Control Key für Buchstabe, Alt Key
+  für Wort usw.
+
+  - C-w= ist "Ausschneiden"
+
+  - =M-w= ist "Kopieren"
+
+  - =C-y= ist "Einfügen" (wenn man direkt nach dem =C-y= ein oder
+  mehrmals "M-y" drückt wird die History des KillRings (Das Clipboard)
+  abgerufen und an der Stelle eingefügt.
+
+  - =C-<SPACE>= setzt den Startpunkt einer Selektion. Der Cursor ist
+  immer der Endpunkt der Selektion. Die Selektion löschen macht man
+  mit "C-g" (dann sind Startpunkt und Cursor bis zum nächsten
+  =C-<SPACE>= gekoppelt)
+  
+* Lisp in Emacs Crashkurs (vor allem der paredit-mode)
+
+  - =C-x C-e= Evaluieren der vorhergehenden sexpr (Cursor sollte rechts
+  neben der schließenden Klammer stehen)
+
+  - =C-c C-c= Kompilieren des aktuellen Top-Level Kontextes (Cursor
+  steht irgendwo innerhalb einer SEXPR).
+  
+  - =C-M-<SPACE>= selektiert die folgende SEXPR.
+
+  - =C-M-t= vertauscht die SEXPR um den Cursor
+
+  - =C-M-f= eine SEXPR nach rechts
+
+  - =C-M-b= eine SEXPR nach rechts
+
+  - =C-M-u= eine SEXPR nach oben
+
+  - =C-M-d= eine SEXPR nach unten
+
+  - =)= Auf die nächste schließende Klammer springen.
+
+  - =TAB= Einrücken der aktuellen Zeile.
+  
+  - =C-M-q= rekursives Einrücken der folgenden SEXPR.
+
+  Um den aktuellen Kontext, in dem ein Cursor steht, zu selektieren,
+  kann man beispielsweise wiederholt =C-M-u= drücken, bis der Cursor
+  am Anfang des zu selektierenden Ausdrucks steht, und dann
+  =C-M-<SPACE>=, um ihn zu selektieren.
+
+  Sehr praktisch sind dann die Barfage & Slurpage Befehle aus der
+  Datei =paredit.pdf=.
