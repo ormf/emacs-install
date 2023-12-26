@@ -1,0 +1,13 @@
+* Installation von lisp, emacs und sly
+
+  - clone this repo into =/tmp/=
+
+  - then in a terminal: =sh < /tmp/emacs-sbcl-sly-install.sh=
+
+    follow the instructions on the screen. After a while emacs should
+    start with a common lisp process in one of the visible buffers.
+
+  - In the lisp REPL type =(ql:quickload :clhs)= to install the Common
+    Lisp HyperSpec
+
+    
