@@ -9,8 +9,11 @@
   - After some time the sbcl process stops with an error. Input
     =(quicklisp-quickstart:install)=
 
-  - After a while emacs should
-    start with a common lisp process in one of the visible buffers.
+  - After the process finishes, enter the command =emacs= in the
+    terminal.
+  
+  - emacs should start with a common lisp process in one of the
+    visible buffers.
 
   - In the lisp REPL type =(ql:quickload :clhs)= to install the Common
     Lisp HyperSpec
