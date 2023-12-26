@@ -1521,7 +1521,7 @@ the indexes in the header accordingly."
   (load (qmerge "setup.lisp"))
   (write-string *after-initial-setup-message*)
   (finish-output)
-  (exit))
+  (cl-user::exit))
 
 (defun install (&key ((:path *home*) *home*)
                 ((:proxy *proxy-url*) *proxy-url*))

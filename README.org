@@ -6,8 +6,8 @@
 
   - then =sh < /tmp/emacs-install/emacs-sbcl-sly-install.sh=
 
-  - After some time the sbcl process asks you to input =(ql:
-
+  - After some time the sbcl process stops with an error. Input
+    =(quicklisp-quickstart:install)=
 
   - After a while emacs should
     start with a common lisp process in one of the visible buffers.
