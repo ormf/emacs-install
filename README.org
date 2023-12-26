@@ -10,4 +10,5 @@
   - In the lisp REPL type =(ql:quickload :clhs)= to install the Common
     Lisp HyperSpec
 
-    
+  - on the github page click =emacs-paredit-crashkurs.org= to se a
+    short crashkurs for emacs editing of lisp files.
