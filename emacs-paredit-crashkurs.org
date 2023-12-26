@@ -8,11 +8,10 @@
   Tastenkombination kommt man in das Emacs Tutorial
 
   - =f,b,n,p= sind "forward", "backward", "next", "previous"
-
   Kombinieren kann man das mit dem Control Key für Buchstabe, Alt Key
   für Wort usw.
 
-  - C-w= ist "Ausschneiden"
+  - =C-w= ist "Ausschneiden"
 
   - =M-w= ist "Kopieren"
 

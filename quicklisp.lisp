@@ -1667,7 +1667,7 @@ the indexes in the header accordingly."
 
 (defvar *after-load-message*
   (format nil "~&~%  ==== quicklisp quickstart ~A loaded ====~%~%    ~
-               To continue with installation, evaluate: (quicklisp-quickstart:install)~%~%     After installation quit sbcl by typing \"(exit)\" and then hit the return key.
+               To continue with installation, evaluate: (quicklisp-quickstart:install)~%~%     After installation quit sbcl by typing \"(exit)\" and the return key.
 
  ~
                For installation options, evaluate: (quicklisp-quickstart:help)~%~%"
