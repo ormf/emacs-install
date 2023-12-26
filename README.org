@@ -6,7 +6,10 @@
 
   - then =sh < /tmp/emacs-install/emacs-sbcl-sly-install.sh=
 
-  - Follow the instructions on the screen. After a while emacs should
+  - After some time the sbcl process asks you to input =(ql:
+
+
+  - After a while emacs should
     start with a common lisp process in one of the visible buffers.
 
   - In the lisp REPL type =(ql:quickload :clhs)= to install the Common
