@@ -6,10 +6,14 @@
 
   - then =sh < /tmp/emacs-install/emacs-sbcl-sly-install.sh=
 
-  - After some time the sbcl process stops with an error. Input
+  - then =sbcl --load /tmp/emacs-install/quicklisp.lisp=
+    
+  - After some time the sbcl process stops with a message in the
+    terminal and an asterisk as prompt. Input
     =(quicklisp-quickstart:install)=
 
-  - After the process finishes, enter the command =(exit)=
+  - After the process finishes, enter the command =(exit)= to exit
+    sbcl.
 
   - Then enter =emacs= in the terminal.
   
